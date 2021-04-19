@@ -12,7 +12,7 @@ int main(){
   int num_1, num_2;
 
   ifstream fin("daten.txt");
-  ofstream fout("datensummen.txt");
+  ofstream fout("datensumme.txt");
 
   for(int n = 0; n < 234; ++n){
     fin >> num_1;
